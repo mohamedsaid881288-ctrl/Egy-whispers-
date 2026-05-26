@@ -3,3 +3,11 @@ Put all your audio files in input_audio/ (any format: mp3, wav, amr, m4a, etc).
 Set your HuggingFace token in main.py.
 Run your entire pipeline: python main.py
 Check results in output_txt/ and output_json/.
+You now have reusable, dynamic modules for scalable, robust Egyptian Arabic meeting transcription.
+You can tune preprocess.py for further denoise/normalization.
+Diarizer, transcriber, and output are all ready for enhancement or swapping models.
+txt and json output for every meeting.
+If you need a ZIP or direct PR structure, let me know!
+
+
+Just copy these files as above into your repo and fill in your HuggingFace token—and you’re ready for advanced, pro-level transcription.
