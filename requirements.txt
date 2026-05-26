@@ -1,0 +1,7 @@
+egyptian-arabic-transcriber/
+├── colab_transcriber_setup.ipynb    # Main Colab notebook
+├── transcriber.py                   # Core application
+├── batch_processor.py               # Batch processing
+├── requirements.txt                 # Dependencies
+├── .env.example                     # Configuration template
+└── README.md                        # Full documentation
