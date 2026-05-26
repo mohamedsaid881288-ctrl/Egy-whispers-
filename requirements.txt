@@ -1,7 +1,10 @@
-egyptian-arabic-transcriber/
+# Linux
+sudo apt install ffmpeg
+# Windows/mac: download binaries or use choco/brewegyptian-arabic-transcriber/
 ├── colab_transcriber_setup.ipynb    # Main Colab notebook
 ├── transcriber.py                   # Core application
 ├── batch_processor.py               # Batch processing
 ├── requirements.txt                 # Dependencies
 ├── .env.example                     # Configuration template
 └── README.md                        # Full documentation
+ffmpeg -i input.m4a -ar 16000 -ac 1 -af "loudnorm,afftdn" output.wav
