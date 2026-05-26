@@ -1,2 +1,5 @@
 📜 Usage
 Put all your audio files in input_audio/ (any format: mp3, wav, amr, m4a, etc).
+Set your HuggingFace token in main.py.
+Run your entire pipeline: python main.py
+Check results in output_txt/ and output_json/.
