@@ -7,4 +7,8 @@ sudo apt install ffmpeg
 ├── requirements.txt                 # Dependencies
 ├── .env.example                     # Configuration template
 └── README.md                        # Full documentation
-ffmpeg -i input.m4a -ar 16000 -ac 1 -af "loudnorm,afftdn" output.wav
+ffmpeg-python
+pyannote.audio
+transformers
+pydub
+torch
